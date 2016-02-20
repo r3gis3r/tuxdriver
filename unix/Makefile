@@ -45,7 +45,6 @@ SRC_OBJS = \
 make:
 	-@if [ ! -d "$(OBJ_DIR)" ]; then mkdir "$(OBJ_DIR)"; fi
 	-@if [ ! -d "$(OUTPUT_DIR)" ]; then mkdir "$(OUTPUT_DIR)"; fi
-	-@svnwcrev $(SRC_DIR) $(SRC_DIR)/svnrev.tmpl.h $(SRC_DIR)/svnrev.h
 	$(CC) -c $(CFLAGS) $(SRC_DIR)/tux_battery.c $(C_INCLUDE_DIRS) -o $(OBJ_DIR)/tux_battery.o
 	$(CC) -c $(CFLAGS) $(SRC_DIR)/tux_cmd_parser.c $(C_INCLUDE_DIRS) -o $(OBJ_DIR)/tux_cmd_parser.o
 	$(CC) -c $(CFLAGS) $(SRC_DIR)/tux_driver.c $(C_INCLUDE_DIRS) -o $(OBJ_DIR)/tux_driver.o

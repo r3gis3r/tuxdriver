@@ -22,13 +22,11 @@
 #ifndef _VERSION_H_
 #define _VERSION_H_
 
-#include "svnrev.h"
-
 #define VER_MAJOR           0
 #define VER_MINOR           0
 #define VER_UPDATE          6
-#define VER_REVISION        SVN_REV
-#define VER_DATE            SVN_REVDATE
+#define VER_REVISION        0
+#define VER_DATE            "2016-02-20"
 #define VER_STATE           " "
 #ifdef WIN32
 #   define VER_ARCH         "WIN32"
