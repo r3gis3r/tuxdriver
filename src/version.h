@@ -25,7 +25,7 @@
 #define VER_MAJOR           0
 #define VER_MINOR           0
 #define VER_UPDATE          6
-#define VER_REVISION        0
+#define VER_REVISION        1
 #define VER_DATE            "2016-02-20"
 #define VER_STATE           " "
 #ifdef WIN32
